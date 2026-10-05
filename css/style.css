@@ -22,7 +22,23 @@ body{background:#fff;overflow-x:hidden}
 .topbar{background:var(--navy);color:#cbd5e1;font-size:11px;letter-spacing:.4px}.topbar-inner{display:flex;justify-content:space-between;padding:7px 0}.header{top:0;box-shadow:0 4px 18px rgba(11,18,32,.05)}
 .brand img{box-shadow:0 6px 16px rgba(0,0,0,.12)}
 .menu a{position:relative}.menu a:after{content:"";position:absolute;left:0;right:100%;bottom:-7px;height:2px;background:var(--red);transition:.25s}.menu a:hover:after{right:0}
-.hero div {
+.hero @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+  text-align:center;
+  background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
+  color:#555;
+  font-family:'Roboto';
+  font-weight:300;
+  font-size:32px;
+  padding-top:40vh;
+  height:100vh;
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+div {
   display:inline-block;
   overflow:hidden;
   white-space:nowrap;
