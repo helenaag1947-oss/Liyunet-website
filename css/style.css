@@ -8,7 +8,7 @@
   background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
   color:#555;
   font-family:'Roboto';
-  font-weight:50;
+  font-weight:300;
   font-size:32px;
   padding-top:40vh;
   height:100vh;
@@ -29,7 +29,7 @@ div:first-of-type {    /* For increasing performance
   animation: showup 7s infinite;
 }
 div:last-of-type {
-  width:0px;
+  width:100px;
   animation: reveal 7s infinite;
 }
 div:last-of-type span {
